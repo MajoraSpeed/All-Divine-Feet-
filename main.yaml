@@ -1,0 +1,144 @@
+- the fastest language is german
+- goal -> grab 100 koroks without glitches
+- this route use 1 boko amiibo, 3 epona amiibo and 1 box amiibo
+
+- Great Plateau:
+    - SoR clip:
+        coord: [-1073,1924.5]
+    - _Equipment::Shield<Pot Lid>:
+        coord: [-952.875,1960.3125]
+    - _Equipment::Weapon<Boko Spear>:
+        coord: [-942.9375,1959.75]
+    - _Material<6 Pepper>:
+        comment: 2 are mendatory for IST
+        coord: [-962.6875,1955.75]
+    - _Material<2 Shroom>:
+        comment: Don't eat it
+        coord: [-959.1875,1964.6875]
+    - Talk to .npc(Zelda):
+        icon: zelda
+        coord: [-902.5625,2000.8125]
+    - _Equipment::Bow<Traveler's Bow>:
+        coord: [-832.125,1963.0625]
+        notes: .link([Shield clip] https://www.youtube.com/watch?v=oklKNwEPvYY)
+    - _Shrine::JaBaij:
+        comment: BLSS to it
+        notes: .link([Gamer Windbomb] https://www.youtube.com/shorts/mkCRV-NXqkw)
+    - _Shrine::OmanAu
+    - _Shrine::OwaDaim:
+        movements:
+        - [-657.25,1492.625]
+        - [-827.75,2255.75]
+        - [-925.0625,2320.125]
+    - _Shrine::KehNamut:
+        movements:
+        - [-978.25,2286.375]
+        - [-1435.4375,1990.625]
+    - Paraglider:
+        coord: [-811.6875,1966.8125]
+        icon: king
+    - EMS start blss:
+        coord: [-945.9375,2186.5]
+        notes: .link([EMS blss] https://youtu.be/gDQJ6tWaGLU?si=wGGKhyIAlOyDbwqv&t=893)
+    - _Npc::Sheika::Female<Impa>:
+        coord: [1775.625,984.9375]
+    - _Material<4 Fairies>:
+        coord: [1975.875,857.375]
+        notes: .link([Windbomb] https://youtu.be/AE_RpDrSnt8?si=8UBUiqBOd13Wf5dE&t=1519)
+    - _Material<2 Blue Nightshade>:
+        coord: [1967.6875,853.0625]
+    - _Material<2 Silent Princess>:
+        coord: [1989.75,831.125]
+    - Camera BLSS:
+        coord: [1868.25,1063.125]
+        notes: Use .link([this BLSS] https://youtu.be/45hysSaSPWE?si=pwL3YiZXHjMGr_oq&t=1146) or .link([This BLSS] https://youtu.be/45hysSaSPWE?si=_04Z3zQiaeG40lom&t=1573)
+    - BLSS to Blue flame:
+        coord: [3436.1875,1972.875]
+        icon: bow
+    - Camera:
+        icon: camera
+        movements:
+        - [3435.5625,1985.875]
+        - [3638.25,2098]
+        - [3784.6875,2113.375]
+        - [3774.9375,2124.6875]
+        notes: .link([Do Weapon Smuggling] https://youtu.be/AE_RpDrSnt8?si=MCKDFjMUJRaBvovu&t=1263)
+        comment: Do 2 windbombs
+    - _Material<1 Apple>:
+        coord: [3796.25,2108.4375]
+    - BLSS to Hinox:
+        movements:
+        - [3371,1574]
+        - [3138,208]
+    - _Equipment::Weapon<1 Knight's Broadsword and Knight's Bow>:
+        coord: [2930.5,-299.5]
+    - _Shop<Trad 4 Orbs to have Stamina Vessel>:
+        coord: [3313.25,-497.25]
+        notes: .link([EchecDamn's Windbomb] https://youtu.be/V3cd9KjyXPE?si=O5J2bfOHpVWHm94q&t=1940)
+    - Do Hard Save
+    - .link([Feets IST] https://www.youtube.com/watch?v=Bs3DoTmZcCs):
+        coord: [3326.9375,-482.6875]
+        icon: material
+    - Talk to .npc(Zora's King):
+        icon: npc-zora-male
+        coord: [3337.1875,-552.5]
+        comment: equip Zora Armor
+    - Talk to .npc(Sidon):
+        icon: npc-zora-male
+        coord: [3302.125,-472.5625]
+    - Enter Ruta:
+       icon: ruta
+       movements:
+        - to: [3350.75,-469.75]
+        - to: [3492.75,-440.5]
+        - to: [3594.75,-340.75]
+       comment: After finishing the Zora dialogue, do 1 Wind Bomb 1/4 then 1 Fast Mid-Air to talk to Sidon
+    - .boss(Waterblight):
+       icon: blight
+       coord: [3662,-164]
+       notes: Try 1 cycles Waterblight et j'ai fais nimp avec mon arc avant Ruta donc juste finir Water a l'arc normalement ca passe .link(https://youtu.be/1BWww_1B7jE)
+    - _Warp::Beast::Ruta:
+       comment: Snap Panard Ruta 
+       icon: ruta    
+    - Ruta to Rudania:
+       icon: rudania
+       notes: .link(https://youtu.be/6UOdcY3AmSM)
+       comment: go to Rudania with BLSS and Snap Panard Rudania and go to Medoh 
+       movements:
+        - to: [2952.5,80.5]
+        - to: [2526,-2158]
+    - Rudania to Piaf:
+        icon: house
+        comment: after Snap panard Rudania go to Rito village and talk Kyle and women Teba
+        notes: .link(https://youtu.be/JpeWgQ3wI8A)
+        movements:
+          - to: [2565,-2071]
+          - to: [740,-1524]
+          - to: [-3653.75,-1800.25]
+    - Enter Medoh:
+       icon: medoh
+       comment: do Enter Medoh as in the video and recup bow after talk Teba
+       notes: .link(https://youtu.be/T_fTIPzSQL0)
+       movements: 
+        - to: [-3643.75,-1828]
+        - to: [-3801.625,-2313.125]
+    - .boss(Windblight):
+       icon: blight
+       comment: do Medoh like in classic AD just the windblight fight will change otherwise Medoh AD classic
+       notes: .link(https://youtu.be/X606ZGFQGME)
+       coord: [-3224,-2448]
+    - _Warp::Beast::Medoh:
+       icon: medoh2
+       comments: snap panard Medoh 
+    - Panard Medoh to Panard Naboris:
+       icon: naboris
+       comments: Snap panard Naboris and split for finish the run and show all panard
+       notes: .link(https://youtu.be/NoN9CbUgJlI)
+       movements:
+        - to: [-3586.75,-1803.125]
+        - to: [-2900,-120]
+        - to: [-2896,512]
+        - to: [-2016,1184]
+        - to: [-2002,1820]
+        - to: [-2944,2540]
+        - to: [-3244,3708]
